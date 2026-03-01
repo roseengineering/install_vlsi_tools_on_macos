@@ -8,15 +8,13 @@ I hope they may be helpful to others.
 ### Install Tcl/Tk for macOS
 
 First off, Homebrew's version of tcl-tk is not compatible
-with Magic.  From my experiements, even if Magic is 
-compiled with brew's tcl-tk 8.6, the app will crash.
+with Magic.  From my experiments, even if Magic is 
+compiled with brew's tcl-tk8.6, the app will crash.
 This is because of a conflict between the two windowing
-systems compiled into it, X11 and macOS Native.  
+systems compiled into resulting magic binary, X11 and macOS native.  
 
 Therefore to install Magic on macOS you have to compile
-tcl-tk yourself.
-
-So if you are on a macOS, install tcl-tk locally 
+tcl-tk yourself.  So if you are on a macOS, install tcl-tk locally 
 using:
    -  [install\_tcltk.sh](install_tcltk.sh).
 
