@@ -38,8 +38,8 @@ Run the following scripts to install the rest of the apps:
    - Yosys: [install\_yosys.sh](install_yosys.sh)
    - Tkcon: [install\_tkconrc.sh](install_tkconrc.sh)
 
-Note, tkcon installs the tkcon console program along
-with a .tkconrc file, with a large font set for Magic.
+Note, install\_tkconrc.sh also installs the tkcon console program along
+with the .tkconrc file, which sets a large font for Magic.
 
 ### Install the Skywatcher130 PDK for macOS or Linux
 
