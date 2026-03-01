@@ -2,8 +2,8 @@
 ## VLSI design software installation for macOS (arm) and Debian/Ubuntu Linux
 
 I created the following scripts to install Magic,
-Netgen, the Skywatch130 PDK, Xschem, and Yosys on my Mac and Debian Linux machine.
-I hope they may be helpful to you.
+Netgen, the Skywatch130 PDK, Xschem, and Yosys on my Mac and Debian Linux machines.
+I hope they may be helpful to you and spare you the agony of installing them on macOS.
 
 ### Install Tcl/Tk for macOS
 
