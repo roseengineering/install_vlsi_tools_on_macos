@@ -27,7 +27,7 @@ Running this script on Linux will apt install tcl-dev and tk-dev.
 Run [install\_magic.sh](install_magic.sh) to install Magic.
 Since openOGL fails on macOS it is disabled.
 
-### Install the remaining apps for macOS or Linux
+### Install Remaining Apps
 
 Run the following scripts to install the rest of the apps:
 
