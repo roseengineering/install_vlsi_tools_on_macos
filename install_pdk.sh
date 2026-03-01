@@ -1,8 +1,8 @@
 
 set -x
-pipx.sh cicconf
-pipx.sh cicsim cicsim pyyaml click tabulate
-pipx.sh volare
+sh pipx.sh cicconf
+sh pipx.sh cicsim cicsim pyyaml click tabulate
+sh pipx.sh volare
 
 pdk=bdc9412b3e468c102d01b7cf6337be06ec6e9c9a
 
