@@ -1,4 +1,6 @@
 
+# install qt either on mac or linux to enable cairo support
+
 set -x
 rm -rf magic
 git clone https://github.com/RTimothyEdwards/magic
@@ -18,7 +20,6 @@ case "$(uname -m)" in
       sudo apt-get install -y freeglut3-dev libglu1-mesa-dev libgl1-mesa-dev # needed for ogl
       ./configure \
          --prefix=$HOME/.local \
-         --with-cairo=no \
          --with-opengl=yes
       ;;
 esac
