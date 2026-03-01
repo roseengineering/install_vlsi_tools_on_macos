@@ -4,6 +4,8 @@
 I created the following scripts to install Magic,
 Netgen, the Skywatch130 PDK, Xschem, and Yosys on my Mac and Debian Linux machines.
 I hope they may be helpful to you and spare you the agony of installing them on macOS.
+The scripts detect whether they are running on macOS or Linux and build accordingly.
+For macOS brew is used to install dependences while for Linux apt-get is used.
 
 ### Install Tcl/Tk for macOS
 
@@ -20,7 +22,7 @@ using:
 
 Running this script on Linux will apt install tcl-dev and tk-dev.
 
-### Install Magic for macOS or Linux
+### Install Magic 
 
 Run [install\_magic.sh](install_magic.sh) to install Magic.
 Since openOGL fails on macOS it is disabled.
