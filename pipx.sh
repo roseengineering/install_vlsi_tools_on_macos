@@ -1,10 +1,13 @@
 #!/bin/sh
 [ -n "$1" ] && [ -n "$2" ] || exit
-rm -rf ~/.local/share/pipx/$1
-/usr/bin/python3 -m venv ~/.local/share/pipx/$1
-~/.local/share/pipx/$1/bin/pip install ${@:2}
-cat > ~/.local/bin/$1 <<EOF
+name=$1
+shift
+set -v
+rm -rf ~/.local/share/pipx/$name
+/usr/bin/python3 -m venv ~/.local/share/pipx/$name
+~/.local/share/pipx/$name/bin/pip install $@
+cat > ~/.local/bin/$name <<EOF
 #!/bin/sh
-~/.local/share/pipx/$1/bin/$1 \$@
+~/.local/share/pipx/$name/bin/$name \$@
 EOF
-chmod 755 ~/.local/bin/$1
+chmod 755 ~/.local/bin/$name

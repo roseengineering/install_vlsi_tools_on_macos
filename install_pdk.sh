@@ -8,6 +8,7 @@ pdk=bdc9412b3e468c102d01b7cf6337be06ec6e9c9a
 
 # pdk
 volare ls-remote --pdk sky130
+rm -rf ~/.cache/volare
 volare enable --pdk-root ~/.cache/volare --pdk sky130 ${pdk}
 
 # magicrc
