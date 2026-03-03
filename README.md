@@ -48,7 +48,7 @@ with the .tkconrc file, which sets a large font for Magic.
 Ensure the environment variable PDK\_ROOT is set to "$HOME/.cache/volare", in
 say .bashrc or .zshrc, before running magic so you can 
 access the PDK in the app.  This script also installs
-cicconf, cicsim, and volare using pip install.  My script
+cicconf, cicsim, cicpy, and volare using pip install.  My script
 pipx.sh, included here, performs the actual installation.
 
 
